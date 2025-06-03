@@ -369,6 +369,7 @@ footer {
     border: none;
     cursor: pointer;
     z-index: 1100;
+    /* border: 1px solid red; */
 }
 
 .hamburger span {
@@ -377,6 +378,7 @@ footer {
     background: #5d4037;
     border-radius: 3px;
     transition: all 0.3s ease;
+    /* border: 1px solid blue; */
 }
 
 #backToTop img {
@@ -386,7 +388,7 @@ footer {
 #backToTop {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 0px;
     padding: 0.8rem 1.2rem;
     cursor: pointer;
     visibility: hidden;
