@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/destyle.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+        <title>カフェ・ド・ソレイユ | Cafe de soleil - 心温まるランチと贅沢なケーキ</title>
+    </head>
+    <button id="backToTop" title="トップに戻る"><img src="images/top.png" alt="" /></button>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#" class="logo">Cafe de soleil</a>
+                <ul class="nav-links">
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#menu">メニュー</a></li>
+                    <li><a href="#info">店舗情報</a></li>
+                    <li><a href="#form">お問い合わせ</a></li>
+                </ul>
+                <button class="hamburger" aria-label="メニューを開く">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>カフェ・ド・ソレイユ</h1>
+                <p class="subtitle">心温まるランチと贅沢なケーキで、午後のひとときを</p>
+            </div>
+        </section>
+
+        <main>
+            <section id="concept" class="section">
+                <h2>コンセプト</h2>
+                <div class="concept fade-in">
+                    <p class="concept-text">
+                        ケーキとランチの両方を楽しめるカフェ。旬の食材を使用したランチメニューと、
+                        心を込めたケーキで、ランチタイムからティータイムまで素敵な時間を提供します。<br /><br />
+                        シンプルでありながら、心温まる料理とお菓子でおもてなしします。
+                        明るく、ナチュラルなインテリアで、友人や一人でもリラックスして過ごせる空間を提供します。
+                    </p>
+                </div>
+            </section>
+
+            <section id="menu" class="section">
+                <h2>メニュー</h2>
+                <div class="menu-grid">
+                    <div class="menu-card fade-in">
+                        <div class="menu-card-image"><img src="images/29952542_m.jpg" alt="" /></div>
+                        <div class="menu-card-content">
+                            <h3>ランチメニュー</h3>
+                            <p>
+                                旬の食材を使用した心温まるランチをご提供。季節ごとに変わる特別メニューもお楽しみください。サラダ、メイン、デザートが付いたセットメニューが人気です。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu-card fade-in">
+                        <div class="menu-card-image"><img src="images/30310951_m.jpg" alt="" /></div>
+                        <div class="menu-card-content">
+                            <h3>ケーキ・デザート</h3>
+                            <p>
+                                パティシエが心を込めて作る贅沢なケーキとデザート。季節のフルーツを使った限定ケーキや、定番の人気ケーキまで豊富にご用意しています。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu-card fade-in">
+                        <div class="menu-card-image">
+                            <img src="images/nuttawut-anek-vgNU1ujE8Mk-unsplash.jpg" alt="" />
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>ドリンク</h3>
+                            <p>
+                                厳選されたコーヒー豆を使用したこだわりのコーヒーや、紅茶、フレッシュジュースなど。ケーキやランチと一緒にお楽しみください。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="info" class="section">
+                <h2>店舗情報</h2>
+                <div class="info-grid">
+                    <div class="info-card fade-in">
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415.4281472629211!2d130.39286205439487!3d33.59427104604473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541913a138f36f9%3A0xfc9028c55a16960f!2z5Ym16YCg56S-44Oq44Kr44Os44Oz44OI44K544Kv44O844OrIOemj-WyoeagoQ!5e0!3m2!1sja!2sjp!4v1748917481867!5m2!1sja!2sjp"
+                                width="600"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                        <h3>所在地</h3>
+                        <p>〒810-0072<br />福岡県福岡市中央区長浜1丁目4番13号<br />SF 福岡ビル6階</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="form" class="section">
+                <h2>お問い合わせ</h2>
+                <div class="contact-form fade-in">
+                    <form action="#" method="POST">
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="name" required />
+
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="email" required />
+
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+
+                        <button type="submit">送信する</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footerflex">
+                    <div class="footerleft">
+                        <div class="footer-logo">Cafe de soleil</div>
+                        <p>カフェ・ド・ソレイユ</p>
+                    </div>
+                    <div class="footerright">
+                        <p>
+                            <strong>営業時間</strong><br />
+                            月～金：8:00～18:00<br />
+                            土日祝：9:00～19:00<br />
+                            （定休日：火曜日）
+                        </p>
+                    </div>
+                </div>
+                <p>&copy; 2025 Cafe de soleil. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
+</html>
